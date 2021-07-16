@@ -1,0 +1,256 @@
+body {
+    background-color: #e5e5e5;
+}
+.baner1{
+    font-family: 'Inter', sans-serif;
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    background: #0B2239;
+    margin-left: 170px;
+}
+.baner1>p{
+    width: 922px;
+    height: 40px;
+    color: #FFFFFF;
+    margin: 16px 32px 16px 120px;
+}
+.baner1>a{
+    color: #4AD295;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    width: 106px;
+    height: 36px;
+    margin: 26px 20px 26px;
+}
+.baner1>button{
+    color: #FFFFFF;
+    background-color: #4AD295;
+    width: 130px;
+    height: 36px;
+    border-radius: 2px;
+    margin-top: 15px;
+    border-style: none;
+}
+.baner2{
+    margin-top: 25px;
+    margin-left: 170px;
+    display: flex;
+    color: #FFFFFF;
+    width: 1440px;
+    height: 52px;
+    background: #2b2627;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+.baner2>p>a{
+    margin: 10px;
+    color: #FFFFFF;
+}
+.baner2>img{
+    width: 16px;
+    height: 16px;
+    left: 733px;
+    margin-top: 15px;
+}
+.baner3{
+    border-radius: 8px;
+    display: flex;
+    width: 700px;
+    height: 100px;
+    background-color: #FFFFFF;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.baner3>img{
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    margin-left: 55px;
+}
+.baner3>p{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 25px 10px 16px;
+}
+.baner3>p>span{
+    color: #EA4C89;
+}
+
+.baner3>.decline{
+    width: 63px;
+    height: 28px;
+    margin: 30px 15px;
+    border-radius: 8px;
+    border-style: none;
+    border-left: 15px;
+}
+.baner3>.allow{
+    background: #EA4C89;
+    width: 63px;
+    height: 28px;
+    margin-top: 30px;
+    margin-right: 40px;
+    border-radius: 8px;
+    border-style: none;
+    border-left: 15px;
+    line-height: 20px;
+}
+.baner4{
+    display: flex;
+    width: 700px;
+    height: 100px;
+    background: #26262B;
+    margin-left: 600px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.baner4>p{
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 30px;    
+}
+.baner4>p>span{
+    color: #f18900;
+}
+.baner4>button{
+    width: 49px;
+    height: 28px;
+    border-radius: 8px;
+    margin-top: 35px;
+    margin-right: 15px;
+    border-style: none;
+}
+.baner5{
+    font-family: 'Inter', sans-serif;
+    width: 360px;
+    height: 206px;
+    border-radius: 10px;
+    background: #0b2239;
+    margin-top: 20px;
+    margin-left: 775px;
+    color: #e5e5e5;
+}
+.baner5>h3{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 24px;
+    padding-top: 15px;
+}
+.baner5>p{
+    margin-left: 24px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.baner5>button{
+    margin-left: 40px;
+    width: 85px;
+    height: 32px;
+    background: #09B3AF;
+    border-style: none;
+}
+.baner5>span{
+    margin-left: 24px;
+    font-size: 14px;
+}
+.baner6{
+    font-family: 'Inter', sans-serif;
+    width: 360px;
+    height: 170px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-left: 775px;
+    margin-top: 20px;
+}
+.baner6>h3{
+    color: #0F181D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 24px;
+    padding-top: 15px;
+}
+.baner6>p{
+    margin-left: 16px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.baner6>.manage{
+    font-size: 16px;
+    color: #687F8C;
+    margin-left: 15px;
+    border-radius: 6px;
+    width: 160px;
+    height: 32px;
+    border-style: none;
+}
+.baner6>.accept{
+    background: #40c1a7;
+    border-radius: 6px;
+    border-style: none;
+    width: 160px;
+    height: 32px;
+}
+.baner7{
+    font-family: 'Inter', sans-serif;
+    width: 320px;
+    height: 220px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-left: 795px;
+    margin-top: 20px;
+}
+.baner7>h2{
+    margin-bottom: 20px;
+    margin-left: 110px;
+    color: #15295A;
+    padding-top: 25px;
+}
+.baner7>p{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: #15295A;
+}
+.baner7>button{
+    width: 121px;
+    height: 44px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 43px;
+    background: #4A7EFF;
+    border-style: none;
+}
+.baner8{
+    font-family: 'Inter', sans-serif;
+    width: 260px;
+    height: 170px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-left: 820px;
+    margin-top: 20px;
+}
+.baner8>p{
+    margin: 16px;
+    margin-top: 35px;
+    margin-left: 30px;
+    padding-top: 35px;
+}
+.baner8>span{
+    margin-left: 40px;
+}
+.baner8>button{
+    background: #6666FF;
+    border-radius: 10px;
+    width: 64px;
+    height: 33px;
+    margin-left: 1px;
+    border-style: none;
+}
+
+
