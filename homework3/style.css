@@ -22,7 +22,7 @@ body {
     line-height: 20px;
     width: 106px;
     height: 36px;
-    margin: 26px 20px 26px;
+    margin-top: 24px;
 }
 .baner1>button{
     color: #FFFFFF;
@@ -55,6 +55,7 @@ body {
     height: 16px;
     left: 733px;
     margin-top: 15px;
+    margin-left: 5px;
 }
 .baner3{
     border-radius: 8px;
@@ -111,7 +112,7 @@ body {
 }
 .baner4>p{
     color: #FFFFFF;
-    margin-left: 10px;
+    margin-left: 16px;
     margin-top: 30px;    
 }
 .baner4>p>span{
@@ -177,9 +178,11 @@ body {
     padding-top: 15px;
 }
 .baner6>p{
-    margin-left: 16px;
+    font-weight: normal;
     font-size: 14px;
     line-height: 20px;
+    color: #687F8C;
+    margin: 0 16px 16px 16px;
 }
 .baner6>.manage{
     font-size: 16px;
