@@ -1,0 +1,527 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    height: auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+.Logo{
+    padding-left: 240px;
+    padding-right: 120px;
+    cursor: pointer;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+nav>ul>li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-right: 40px;
+    cursor: pointer;
+    padding-top: 17px;
+}
+nav>ul>li:hover{
+    font-weight: 800;
+    color: #212353;
+}
+.signup{
+    margin-right: 418px;
+}
+.header_btn{
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    padding: 17px 19px;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+.header_btn::after{
+content: url(../homework5/image/Group\ 56.png);
+padding-left: 20px;
+width: 20px;
+height: 14px;
+}
+.header_btn:hover{
+    background-color: rgba(0, 181, 204, 1);
+    border-radius: 20px;
+    border: 1px solid black;
+    color: rgb(136, 57, 209);
+}
+
+.main-head {
+    width: 645px;
+    height: 184px;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+    padding: 0 715px 50px 240px;
+}
+
+.info-p {
+    width: 380px;
+    height: 120px;
+    left: 240px;
+    top: 474px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    padding: 0 980px 50px 240px;
+}
+
+.learn-btn {
+    cursor: pointer;
+    width: 170px;
+    height: 60px;
+    background: #9C69E2;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    border-style: none;
+    margin-left: 240px;
+    margin-bottom: 200px;
+}
+
+.learn-btn:hover {
+    background-color: rgba(211, 127, 204, 0.5);
+    border-radius: 20px;
+    border: 1px solid black;
+    color:royalblue;
+}
+.block-one::after{
+    content: url(../homework5/image/image1\ 1\ \(2\).png);
+    position: absolute;
+    width: 885px;
+    height: 468px;
+    left: 653px;
+    top: 436px;
+}
+.block-two {
+    width: 1117px;
+    height: 560px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    margin-left: 240px;
+    margin-bottom: 150px;
+}
+
+.block-two::after {
+    content: url(../homework5/image/block-two.png);
+    position: absolute;
+    top: 1085px;
+}
+
+.block-two-head {
+    width: 475px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+    padding: 125px 92px 40px 550px;
+}
+
+.block-two-p {
+    width: 474px;
+    height: 170px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    padding: 0 93px 125px 550px;
+}
+.block-three{
+    margin-bottom: 175px;
+}
+.block-three-head{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+    margin-left: 596px;
+    margin-bottom: 50px;
+    padding-left: 120px;
+}
+.block-three-p{
+    width: 584px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    text-align: center;
+    margin-left: 507px;
+    margin-bottom: 150px;
+}
+.wrapper {
+    display: flex;
+}
+
+.container {
+    min-width: 519.27px;
+    min-height: 355px;
+}
+
+.bk-1::after {
+    content: url(../homework5/image/blk1.png);
+    position: absolute;
+    left: 239px;
+    top: 2100px;
+}
+
+.bk-2::after {
+    content: url(../homework5/image/blk2.png);
+    position: absolute;
+    left: 813px;
+    top: 2080px;
+}
+
+.bk-3::after {
+    content: url(../homework5/image/blk3.png);
+    position: absolute;
+    left: 220px;
+    top: 2404px;
+}
+
+.bk-4::after {
+    content: url(../homework5/image/blk4.png);
+    position: absolute;
+    left: 818px;
+    top: 2367px;
+}
+.block-three-h3 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: #212353;
+    padding-bottom: 20px;
+}
+
+.block-three-p2 {
+    width: 220px;
+    height: 160px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.block-three-a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #212353;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.padding-1 {
+    padding-left: 500px;
+}
+
+.padding-2 {
+    padding-left: 370px;
+}
+
+.padding-3 {
+    margin-top: 80px;
+    padding-left: 500px;
+}
+
+.padding-4 {
+    margin-top: 80px;
+    padding-left: 370px;
+}
+
+.block-three-anc::after{
+    content: url(../image/Group\ 56.png);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.block-three-anc:hover{
+    border-radius: 20px;
+    border: 1px solid black;
+    color: rgb(136, 57, 209);
+}
+
+.block-four{
+    width: 1118px;
+    height: 709px;
+    background: #9C69E2;
+    border-radius: 50px;
+    margin-left: 242px;
+    margin-bottom: 150px;
+}
+
+.block-four-h{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding: 95px 0 80px 95px;
+}
+
+.biography{
+    width: 949px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(89, 44, 153, 0.3);
+    border-radius: 20px;
+    margin: 15px 76px 100px 93px;
+    display: flex;
+}
+
+.block-img{
+    margin: 60px 45px 210px 100px;
+}
+
+.block-four-h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #212353;
+    margin: 50px 240px 5px 0;
+}
+
+.block-four-anc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #9C69E2;
+    text-decoration: none;
+}
+
+.dots{
+    margin: -25px 50px 50px 48px;
+}
+
+.left-arrow{
+    position: absolute;
+    left: 1200px;
+    top: 3620px;
+}
+.right-arrow{
+    position: absolute;
+    left: 1250px;
+    top: 3620px;
+}
+.line{
+    max-width: 100%;
+    height: auto;
+    border-top: 1px solid #9b69e254;
+}
+
+.f-h2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+    margin: 100px 302px 20px 240px;
+}
+
+.f-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160px;
+    color: #4B5D68;
+    margin: -80px 123px 150px 240px;
+}
+
+.rq-btn{
+    display: inline;
+    margin: -300px 20px -35px 1150px;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    padding: 17px 29px;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    color: #212353;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.rq-btn::after{
+    content: url(../homework5/image/Group\ 56.png);
+    padding-left: 20px;
+    width: 20px;
+    height: 14px;
+}
+
+.lm-btn{
+    display: inline;
+    margin: -360px 20px -55px 950px;
+    cursor: pointer;
+    width: 170px;
+    height: 60px;
+    background: #F063B8;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    border-style: none;
+}
+.footer-logo{
+    margin: 150px 200px 20px 240px;
+}
+.footer-name{
+    display: inline;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #212353;
+    position: absolute;
+    left: 309px;
+    top: 4120px;
+}
+
+.footer-name-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #212353;
+    margin: 0 140px 10px 240px;
+}
+
+.mail{
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #212353;
+    margin: 0 140px 0 240px;
+}
+.phone{
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #212353;
+    margin: 0 140px 120px 240px;
+}
+.mail:hover{
+    font-weight: bold;
+}
+
+.phone:hover{
+    font-weight: bold;
+}
+
+.f-box{
+    display: flex;
+}
+
+.footer-a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    padding: 150px 165px 30px 0;
+}
+
+.footer-help{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    padding: 150px 165px 30px 0;
+    list-style: none;
+}
+
+.f-media{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    padding-bottom: 30px;
+    padding-top: 150px;
+}
+
+.f-a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: -45px;
+}
+
+.list-s{
+    list-style: none;
+}
+.f-a:hover{
+    font-weight: bold;
+}
+
+.fb{
+    margin-right: 15px;
+}
+
+.twiter{
+    margin-right: 15px;
+}
+
+.fb:hover{
+  border: 2px solid blue;
+  border-radius: 50%;
+}
+
+.twiter:hover{
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.inst:hover{
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.chat-message{
+    margin-left: 1170px;
+    margin-bottom: 150px;
+    margin-top: -55px;
+}
+
+.chat-message:hover{
+    border: 2px solid rgb(158, 75, 184);
+    border-radius: 50%;
+}
+
+.anno{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    color: #212353;
+    margin-left: 240px;
+}
