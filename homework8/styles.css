@@ -1,0 +1,150 @@
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-spacing: 0;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    font-family: 'Roboto', sans-serif;
+    width: 2000px;
+    height: 1000px;
+    background: rgb(44, 44, 44);
+    padding-top: 50px;
+    letter-spacing: 0.1em;
+}
+
+.border {
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin: 0 0 50px 200px;
+}
+
+.table-head {
+    width: 500px;
+    padding: 20px 0 20px 120px;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #868686;
+}
+
+.table-data {
+    width: 500px;
+    padding: 20px 0 20px 120px;
+    font-size: 14px;
+    border-bottom: 1px solid #868686;
+}
+
+.table-data-thelast {
+    padding: 20px 0 20px 120px;
+    font-size: 14px;
+}
+
+.white {
+    color: #FFF;
+}
+
+.grey {
+    color: darkgrey;
+}
+
+.grey-dots {
+    background-image: url(../homework8/images/dots-grey.jpg.png);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: 470px;
+}
+
+.white-dots {
+    background-image: url(../homework8/images/dots-white.svg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 470px;
+}
+
+.triangle {
+    width: 10px;
+    height: 10px;
+}
+
+.name-inline {
+    display: inline;
+}
+
+.search-ps {
+    position: relative;
+    top: -25px;
+}
+
+.search {
+    position: absolute;
+    left: 260px;
+    width: 200px;
+    height: auto;
+    padding: 10px 0 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(68, 68, 68);
+    outline: none;
+    color: white;
+    background-image: url(../homework8/images/loupe.svg);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 10px;
+}
+
+.box {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.file-position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+    top: -6px;
+}
+
+.relative-thelast {
+    position: relative;
+    bottom: -2px;
+    left: 5px;
+}
+
+table {
+    background: rgb(47, 47, 47);
+}
+
+th {
+    text-align: left;
+}
